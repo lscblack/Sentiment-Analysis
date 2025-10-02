@@ -1,0 +1,4 @@
+exp_id,notes,trainable_embedding,lstm_units,batch,lr,val_accuracy,val_f1_macro,val_logloss,best_epoch
+DL-A,Random embeddings baseline,True,128,64,0.001,0.8245967741935484,0.8245390042084291,0.4066343140769944,5
+DL-C,GloVe fine-tune larger LSTM,True,256,32,0.0001,0.8145161290322581,0.8144407033295922,0.39165145753588787,9
+DL-B,GloVe frozen,False,128,64,0.0005,0.7268145161290323,0.7246970030568513,0.5328531210509766,9

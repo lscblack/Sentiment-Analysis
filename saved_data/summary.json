@@ -1,0 +1,27 @@
+{
+  "best_ml": {
+    "model": "LogisticRegression",
+    "tfidf_cfg": "bigrams_30k",
+    "max_features": 30000,
+    "ngram_range": "(1, 2)",
+    "C": 1.0,
+    "class_weight": NaN,
+    "val_accuracy": 0.875,
+    "val_f1_macro": 0.8748697916666667,
+    "val_precision_macro": 0.8762545080696487,
+    "val_recall_macro": 0.8748841519925857,
+    "val_logloss": 0.3982505473336641
+  },
+  "best_dl": {
+    "exp_id": "DL-A",
+    "notes": "Random embeddings baseline",
+    "trainable_embedding": true,
+    "lstm_units": 128,
+    "batch": 64,
+    "lr": 0.001,
+    "val_accuracy": 0.8245967741935484,
+    "val_f1_macro": 0.8245390042084291,
+    "val_logloss": 0.4066343140769944,
+    "best_epoch": 5
+  }
+}

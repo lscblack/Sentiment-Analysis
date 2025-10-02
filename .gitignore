@@ -1,0 +1,5 @@
+# Ignore large datasets
+# dataset/IMDB\ Dataset.csv
+saved_data/scaled_data/embedding_matrix.npy
+saved_data/scaled_data/tfidf_features.pkl
+notebooks/glove.6B.100d.txt
