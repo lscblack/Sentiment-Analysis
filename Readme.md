@@ -91,9 +91,9 @@ conda activate sentiment-analysis
 
 | exp_id | notes                        | trainable_embedding | lstm_units | batch | lr     | val_accuracy | val_f1_macro | val_logloss | best_epoch |
 | ------ | ---------------------------- | ------------------- | ---------- | ----- | ------ | ------------ | ------------ | ----------- | ---------- |
-| DL-A   | Random embeddings baseline   | ✅ True              | 128        | 64    | 0.0010 | 0.8246       | 0.8245       | 0.4066      | 5          |
-| DL-C   | GloVe fine-tune, larger LSTM | ✅ True              | 256        | 32    | 0.0001 | 0.8145       | 0.8144       | 0.3917      | 9          |
-| DL-B   | GloVe frozen embeddings      | ❌ False             | 128        | 64    | 0.0005 | 0.7268       | 0.7247       | 0.5329      | 9          |
+| DL-A   | Random embeddings baseline   |   True              | 128        | 64    | 0.0010 | 0.8246       | 0.8245       | 0.4066      | 5          |
+| DL-C   | GloVe fine-tune, larger LSTM |   True              | 256        | 32    | 0.0001 | 0.8145       | 0.8144       | 0.3917      | 9          |
+| DL-B   | GloVe frozen embeddings      |   False             | 128        | 64    | 0.0005 | 0.7268       | 0.7247       | 0.5329      | 9          |
 
 ---
 
