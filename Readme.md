@@ -66,7 +66,7 @@ conda activate sentiment-analysis
 
 ---
 
-## 🔹 Preprocessing & Feature Engineering
+##   Preprocessing & Feature Engineering
 
 * **Tokenization strategies**: Basic, Full, Strict
 * **TF-IDF Features**: 4 configurations (unigrams_5k, unigrams_10k, bigrams_5k, bigrams_10k)
